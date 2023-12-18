@@ -1,0 +1,18 @@
+Fitter Status : Successful - Tue Dec 19 00:18:25 2023
+Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Lite Edition
+Revision Name : oscilloscope_1
+Top-level Entity Name : DE10_Lite
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 23,707 / 49,760 ( 48 % )
+    Total combinational functions : 23,554 / 49,760 ( 47 % )
+    Dedicated logic registers : 13,032 / 49,760 ( 26 % )
+Total registers : 13032
+Total pins : 187 / 360 ( 52 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,677,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 1 / 2 ( 50 % )

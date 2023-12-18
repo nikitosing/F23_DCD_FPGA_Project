@@ -1,0 +1,24 @@
+
+State Machine - |DE10_Lite|adc_qsys:u0|adc_qsys_modular_adc_0:modular_adc_0|altera_modular_adc_control:control_internal|altera_modular_adc_control_fsm:u_control_fsm|ctrl_state
+Name ctrl_state.SYNC1 ctrl_state.AVRG_CNT ctrl_state.PUTRESP_PEND ctrl_state.WAIT_PEND_DLY1 ctrl_state.WAIT_PEND ctrl_state.PUTRESP_DLY3 ctrl_state.PUTRESP_DLY2 ctrl_state.PUTRESP_DLY1 ctrl_state.PUTRESP ctrl_state.CONV_DLY1 ctrl_state.CONV ctrl_state.PRE_CONV ctrl_state.GETCMD_W ctrl_state.GETCMD ctrl_state.WAIT ctrl_state.PWRUP_SOC ctrl_state.PWRUP_CH ctrl_state.PWRDWN_DONE ctrl_state.PWRDWN_TSEN ctrl_state.PWRDWN ctrl_state.IDLE 
+ctrl_state.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ctrl_state.PWRDWN 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+ctrl_state.PWRDWN_TSEN 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+ctrl_state.PWRDWN_DONE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+ctrl_state.PWRUP_CH 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+ctrl_state.PWRUP_SOC 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+ctrl_state.WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+ctrl_state.GETCMD 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+ctrl_state.GETCMD_W 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+ctrl_state.PRE_CONV 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+ctrl_state.CONV 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+ctrl_state.CONV_DLY1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+ctrl_state.PUTRESP 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+ctrl_state.PUTRESP_DLY1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ctrl_state.PUTRESP_DLY2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ctrl_state.PUTRESP_DLY3 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ctrl_state.WAIT_PEND 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ctrl_state.WAIT_PEND_DLY1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ctrl_state.PUTRESP_PEND 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ctrl_state.AVRG_CNT 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ctrl_state.SYNC1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
