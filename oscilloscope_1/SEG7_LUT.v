@@ -1,3 +1,5 @@
+// Source: https://arc.net/l/quote/frtplluj
+
 module SEG7_LUT	(	oSEG,iDIG	);
 input	[3:0]	iDIG;
 output	[6:0]	oSEG;
