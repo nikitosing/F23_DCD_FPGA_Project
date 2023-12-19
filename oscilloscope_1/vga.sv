@@ -1,3 +1,5 @@
+// Source: https://github.com/yuri-panchul/basics-graphics-music/blob/main/labs/common/vga.sv
+
 // Asynchronous reset here is needed for some FPGA boards we use
 
 `include "config.svh"
